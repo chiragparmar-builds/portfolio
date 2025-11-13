@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chirag Parmar | Java Full Stack Developer Portfolio</title>
-    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Load Lucide Icons for aesthetic components -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         /* Custom styles for smoother scrolling and default font */
@@ -34,7 +32,6 @@
 </head>
 <body class="bg-gray-900 text-gray-200 antialiased">
 
-    <!-- Navbar -->
     <header class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm shadow-xl border-b border-gray-800">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold gradient-text">Chirag Parmar</a>
@@ -44,7 +41,6 @@
                 <a href="#projects" class="hover:text-indigo-400 transition duration-300">Projects</a>
                 <a href="#contact" class="hover:text-indigo-400 transition duration-300">Contact</a>
             </div>
-            <!-- Mobile Menu Button (Icon for menu can be added if JS were to be implemented) -->
             <button class="md:hidden p-2 rounded-lg hover:bg-gray-800 transition duration-300" aria-label="Toggle Menu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
             </button>
@@ -52,7 +48,6 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="hero" class="section-padding pt-32 lg:pt-48 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="max-w-4xl mx-auto">
                 <p class="text-lg text-indigo-400 font-semibold mb-3">Hello, I'm Chirag Parmar</p>
@@ -71,7 +66,6 @@
             </div>
         </section>
 
-        <!-- About Me Section (Modified for Education/Experience Summary) -->
         <section id="about" class="section-padding bg-gray-800/50 border-t border-b border-gray-800">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-4xl font-bold text-center mb-16 text-white">Summary & Education</h2>
@@ -97,21 +91,17 @@
                         </ul>
                     </div>
                     <div class="md:col-span-1 flex justify-center">
-                        <!-- Dummy User Photo -->
                         <img src="./Profilepic.jpg" alt="Chirag Parmar Profile Photo" class="w-64 h-64 rounded-full object-cover border-4 border-indigo-600 shadow-2xl transition duration-500 hover:scale-105" onerror="this.onerror=null; this.src='https://placehold.co/256x256/374151/D1D5DB?text=CP';" />
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="section-padding">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-4xl font-bold text-center mb-16 text-white">My Tech Stack</h2>
-                <!-- Updated grid layout to lg:grid-cols-3 for better balance with 5 cards -->
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-6">
                     
-                    <!-- 1. Languages (Updated content) -->
                     <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02] border-t-2 border-indigo-500">
                         <div class="flex items-center space-x-4">
                             <i data-lucide="code" class="w-8 h-8 text-indigo-400"></i>
@@ -120,7 +110,6 @@
                         <p class="mt-4 text-gray-400">Java, J2EE, SQL</p>
                     </div>
 
-                    <!-- 2. Frameworks (Updated content) -->
                     <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02] border-t-2 border-orange-500">
                         <div class="flex items-center space-x-4">
                             <i data-lucide="package" class="w-8 h-8 text-orange-400"></i>
@@ -129,7 +118,6 @@
                         <p class="mt-4 text-gray-400">Spring, Spring MVC, **Springboot**, **Hibernate**, **Spring Security**</p>
                     </div>
 
-                    <!-- 3. Web & Core Tech (Updated content) -->
                     <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02] border-t-2 border-green-500">
                         <div class="flex items-center space-x-4">
                             <i data-lucide="layers" class="w-8 h-8 text-green-400"></i>
@@ -138,17 +126,14 @@
                         <p class="mt-4 text-gray-400">JSP, Servlets, JDBC, Thymeleaf, HTML, CSS, JavaScript</p>
                     </div>
                     
-                    <!-- 4. Databases (New Card) -->
                     <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02] border-t-2 border-cyan-500">
                         <div class="flex items-center space-x-4">
-                            <!-- <i data-lucide="server-stack" class="w-8 h-8 text-cyan-400"></i> -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="database" class="lucide lucide-database w-8 h-8 text-cyan-400"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg>
                             <h3 class="text-xl font-semibold text-white">Databases</h3>
                         </div>
                         <p class="mt-4 text-gray-400">MySQL, PostgreSQL</p>
                     </div>
 
-                    <!-- 5. Tools & Platforms (New Card) -->
                     <div class="bg-gray-800 p-6 rounded-xl shadow-xl hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02] border-t-2 border-yellow-500">
                         <div class="flex items-center space-x-4">
                             <i data-lucide="wrench" class="w-8 h-8 text-yellow-400"></i>
@@ -161,12 +146,10 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="section-padding bg-gray-800/50 border-t border-b border-gray-800">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-4xl font-bold text-center mb-16 text-white">Featured Projects</h2>
                 <div class="space-y-16">
-                    <!-- Project 1: E-commerce Store -->
                     <div class="flex flex-col lg:flex-row bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-700/50 transform hover:scale-[1.01] transition duration-500">
                         <div class="lg:w-1/2 p-6 md:p-10 flex flex-col justify-center">
                             <p class="text-sm font-semibold text-indigo-400 mb-2">Full Stack E-commerce Application</p>
@@ -192,12 +175,10 @@
                             </div>
                         </div>
                         <div class="lg:w-1/2 min-h-[250px] bg-gray-700 flex items-center justify-center">
-                             <!-- E-commerce Store Placeholder -->
-                             <img src="https://placehold.co/800x450/333344/ffffff?text=E-Commerce+Dashboard" alt="Screenshot of E-commerce Store Dashboard" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/800x450/374151/D1D5DB?text=E-Commerce+Dashboard';" />
+                            <img src="https://placehold.co/800x450/333344/ffffff?text=E-Commerce+Dashboard" alt="Screenshot of E-commerce Store Dashboard" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/800x450/374151/D1D5DB?text=E-Commerce+Dashboard';" />
                         </div>
                     </div>
 
-                    <!-- Project 2: Online Resume Builder -->
                     <div class="flex flex-col lg:flex-row-reverse bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-700/50 transform hover:scale-[1.01] transition duration-500">
                         <div class="lg:w-1/2 p-6 md:p-10 flex flex-col justify-center">
                             <p class="text-sm font-semibold text-purple-400 mb-2">Web Utility Tool</p>
@@ -223,12 +204,10 @@
                             </div>
                         </div>
                         <div class="lg:w-1/2 min-h-[250px] bg-gray-700 flex items-center justify-center">
-                            <!-- Online Resume Builder Placeholder -->
                             <img src="https://placehold.co/800x450/443333/ffffff?text=Professional+Resume+Template" alt="Screenshot of Resume Builder Template" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/800x450/374151/D1D5DB?text=Professional+Resume+Template';" />
                         </div>
                     </div>
 
-                    <!-- Project 3: Student Registration Module -->
                     <div class="flex flex-col lg:flex-row bg-gray-900 rounded-xl overflow-hidden shadow-2xl border border-gray-700/50 transform hover:scale-[1.01] transition duration-500">
                         <div class="lg:w-1/2 p-6 md:p-10 flex flex-col justify-center">
                             <p class="text-sm font-semibold text-teal-400 mb-2">Account Management Module</p>
@@ -254,7 +233,6 @@
                             </div>
                         </div>
                         <div class="lg:w-1/2 min-h-[250px] bg-gray-700 flex items-center justify-center">
-                            <!-- Student Registration Module Placeholder -->
                             <img src="https://placehold.co/800x450/334433/ffffff?text=Registration+Form+%2F+Admin+List" alt="Screenshot of Student Registration Form or Admin List" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/800x450/374151/D1D5DB?text=Registration+Form+%2F+Admin+List';" />
                         </div>
                     </div>
@@ -263,7 +241,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="section-padding">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-4xl font-bold text-center mb-16 text-white">Get In Touch</h2>
@@ -271,7 +248,7 @@
                     <p class="text-lg text-gray-400 mb-8 text-center">
                         I am currently focused on **Java Full Stack Development** opportunities. Feel free to connect to discuss roles or projects!
                     </p>
-                    <form action="#" method="POST" class="space-y-6">
+                    <form id="contact-form" class="space-y-6">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name</label>
                             <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500">
@@ -284,6 +261,7 @@
                             <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Message</label>
                             <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-indigo-500 focus:border-indigo-500 placeholder-gray-500"></textarea>
                         </div>
+                        <p id="response-message" class="text-center font-medium h-6"></p>
                         <button type="submit" class="w-full flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 transform hover:scale-[1.01]">
                             Send Message
                         </button>
@@ -308,7 +286,6 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="bg-gray-900 border-t border-gray-800 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-gray-500 text-sm">
             <p>&copy; 2025 Chirag Parmar. All rights reserved.</p>
@@ -316,10 +293,47 @@
         </div>
     </footer>
 
-    <!-- Initialize Lucide Icons -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        // 1. Initialize EmailJS with your User ID
+        (function() {
+            emailjs.init("lNOm5sip0bPVxONb0"); 
+        })();
+    </script>
+
     <script>
         // Automatically replace data-lucide attributes with SVG icons
         lucide.createIcons();
+
+        // 2. Email sending logic
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const responseMessage = document.getElementById('response-message');
+            responseMessage.textContent = 'Sending...';
+            responseMessage.style.color = '#6366f1'; // Tailwind indigo-500
+
+            // Your specific EmailJS IDs
+            const serviceID = 'service_zmgoupc'; 
+            const templateID = 'template_4go0ja8';
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    responseMessage.textContent = 'Message sent successfully! I will get back to you soon.';
+                    responseMessage.style.color = '#4ade80'; // Tailwind green-400
+                    document.getElementById('contact-form').reset();
+                    
+                    // Clear message after a few seconds
+                    setTimeout(() => {
+                         responseMessage.textContent = '';
+                    }, 5000);
+
+                }, (err) => {
+                    console.error("EmailJS Error:", err);
+                    responseMessage.textContent = 'Failed to send message. Please check the console for details.';
+                    responseMessage.style.color = '#f87171'; // Tailwind red-400
+                });
+        });
     </script>
 </body>
 </html>
